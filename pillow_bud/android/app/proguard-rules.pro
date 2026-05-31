@@ -1,0 +1,3 @@
+-dontwarn com.google.mediapipe.proto.**
+-keep class com.google.mediapipe.proto.** { *; }
+-keep class com.google.mediapipe.framework.** { *; }

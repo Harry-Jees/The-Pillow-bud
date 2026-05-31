@@ -14,11 +14,25 @@ dependencies:
   intl: ^0.19.0
   uuid: ^4.0.0
   google_fonts: ^6.1.0
+  flutter_gemma: ^0.16.1
+  flutter_riverpod: ^2.6.1
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.5
+  flutter_secure_storage: ^9.2.4
+  encrypt: ^5.0.3
+  local_auth: ^2.3.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  build_runner: ^2.4.13
+  isar_generator: ^3.1.0+1
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/app_icon.png
+    - assets/models/smolLM.task
